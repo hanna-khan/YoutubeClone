@@ -23,7 +23,7 @@ router.route("/register").post(
   ]),
   registerUser
 );
-router.route(".login", loginUser);
+router.route("/login", loginUser);
 
 // secure routes
 // token s he pta chlta login ho ya nhi isilye auth middleware add kia tha 
